@@ -1,0 +1,5 @@
+fastapi
+pyjwt
+cryptography
+uvicorn
+pytest
