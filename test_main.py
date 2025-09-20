@@ -25,7 +25,7 @@ def test_auth_returns_jwt():
 def test_auth_with_expired_param():
     # First wait for key to expire
     import time
-    time.sleep(61)  # Wait for key TTL to expire
+    time.sleep(61)  # Wait for key TTL to expires
     res = client.post("/auth?expired=true")
     assert res.status_code == 200
     token = res.json()["token"]
