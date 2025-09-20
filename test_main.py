@@ -1,3 +1,5 @@
+# This file was completed with assistance from Github Copilot
+
 from fastapi.testclient import TestClient
 from main import app
 import jwt

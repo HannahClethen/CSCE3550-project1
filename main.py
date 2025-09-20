@@ -1,3 +1,4 @@
+# This file was completed with assistance from Github Copilot
 from fastapi import FastAPI, Request #External libraires needed for api
 from fastapi.responses import JSONResponse
 from key_manager import KeyManager

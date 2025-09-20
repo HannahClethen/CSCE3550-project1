@@ -1,3 +1,5 @@
+# This file was completed with assistance from Github Copilot
+
 import time
 import jwt
 from cryptography.hazmat.primitives import serialization
