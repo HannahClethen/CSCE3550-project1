@@ -17,3 +17,4 @@ The following prompts were used to aid in development of this project (This list
 # Instructions to run (with gradebot)
 After completing requirements, run "uvicorn main:app --port 8080" on terminal line,
 then proceed to use gradebot to check against rubric
+To run test suite "pytest --cov"
